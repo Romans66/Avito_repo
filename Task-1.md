@@ -42,7 +42,13 @@
 Окружение:Windows 8.1, Google Chrome V. 88.0.4324.104
 
 Доп материалы:	
+
 Лог:POST https://www.avito.ru/web/1/developers/developments/search 400    sentry.787ddb3476ee9.js:2
+
+ 
+![alt-текст][logo]
+
+[logo]: https://github.com/Romans66/Avito_repo/blob/main/PIK2.png
 
 
 
