@@ -1,0 +1,177 @@
+{
+  "id": "c41eae86-6f81-4655-991d-0f4a23dd8c82",
+  "version": "2.0",
+  "name": "Тест_кейс 1: Переключение между табами Алфавит/Линия с выбором станций метро",
+  "url": "https://m.avito.ru/moskva",
+  "tests": [{
+    "id": "841c42cd-4237-4c96-8913-c87f91e104ba",
+    "name": "AMM1: Переключение между табами Алфавит/Линия с выбором станций метро",
+    "commands": [{
+      "id": "98d4d3d6-8380-4a59-89f4-2d400c8c4c0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://m.avito.ru/moskva?searchForm=true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efd45787-069c-484d-9fe2-2973871dc364",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f159f1ef-6fc8-4b2e-ac46-dc11b92ceace",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.\\_2Vm_X",
+      "targets": [
+        ["css=.\\_2Vm_X", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6156df9-8682-4874-a892-583506142f1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2Vm_X",
+      "targets": [
+        ["css=.\\_2Vm_X", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div/div[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d93384f1-a795-427b-b790-3dd2ada73bf8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1bsvtvg",
+      "targets": [
+        ["css=.css-1bsvtvg", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div/div/div[2]/div/div[2]/div/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Метро')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "065c3ad6-a038-4471-a961-9ed68ab71bd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1bsvtvg",
+      "targets": [
+        ["css=.css-1bsvtvg", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div/div/div[2]/div/div[2]/div/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Метро')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7a64ff-c2bb-4557-a092-16074641562f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1suadfl:nth-child(1) > .css-7ohp1y",
+      "targets": [
+        ["css=.css-1suadfl:nth-child(1) > .css-7ohp1y", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[4]/label/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf21feb-8893-4d2b-900c-46a05d758e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1suadfl:nth-child(1) > .css-7ohp1y",
+      "targets": [
+        ["css=.css-1suadfl:nth-child(1) > .css-7ohp1y", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[4]/label/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49cab36-6c33-42cc-9d5f-b406e6c5cb4e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.css-ghlk4h > path",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebbbcac8-2cb5-439e-9ec9-f5c545f49a44",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-8yg80d",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da678c27-16c8-471c-85bc-e0d48eb5647e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.css-1j6zceg",
+      "targets": [
+        ["css=.css-1j6zceg", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Авиамоторная')]", "xpath:innerText"]
+      ],
+      "value": "Авиамоторная"
+    }, {
+      "id": "9f678c04-4424-4ae5-b3d5-199b7f6166ba",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-17syd5g:nth-child(3)",
+      "targets": [
+        ["css=.css-17syd5g:nth-child(3)", "css:finder"],
+        ["xpath=//button[@value='lines']", "xpath:attributes"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[4]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'По линиям')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4e8f9b-6cca-40e4-865b-0f0e5d628903",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17syd5g:nth-child(3)",
+      "targets": [
+        ["css=.css-17syd5g:nth-child(3)", "css:finder"],
+        ["xpath=//button[@value='lines']", "xpath:attributes"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[4]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'По линиям')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "572de22f-468f-4c40-b027-ad22ffdbae6b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1j6zceg",
+      "targets": [
+        ["css=.css-1j6zceg", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37076d64-81aa-4877-b882-1e0043d8e2d8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.css-1j6zceg",
+      "targets": [
+        ["css=.css-1j6zceg", "css:finder"],
+        ["xpath=//div[@id='modalPage']/div[2]/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": "Авиамоторная"
+    }]
+  }],
+  "suites": [{
+    "id": "edce2089-0aae-4813-9d9c-13758fa7d8a1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["841c42cd-4237-4c96-8913-c87f91e104ba"]
+  }],
+  "urls": ["https://m.avito.ru/moskva?searchForm=true", "https://m.avito.ru/moskva"],
+  "plugins": []
+}
