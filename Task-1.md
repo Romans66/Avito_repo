@@ -51,7 +51,7 @@
 #### Дополнительные материалы:	
 
 Лог:
-POST `https://www.avito.ru/web/1/developers/developments/search 400    sentry.787ddb3476ee9.js:2`
+`POST https://www.avito.ru/web/1/developers/developments/search 400    sentry.787ddb3476ee9.js:2`
 
 ![alt-текст][logo2]
 
