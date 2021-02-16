@@ -20,7 +20,7 @@
 
 ![alt-текст][logo1]
 
-[logo1]: https://github.com/Romans66/Avito_repo/blob/main/Task-1-screen/PIK1.png
+[logo1]: https://github.com/Romans66/Avito_repo/blob/main/Task-1-screen/PIK0.png
 
 
 
